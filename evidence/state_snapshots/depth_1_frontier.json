@@ -1,0 +1,43 @@
+{
+  "depth": 1,
+  "duplicate_count": 0,
+  "expanded_count": 4,
+  "frontier": [
+    {
+      "cost": 1,
+      "evidence": [
+        "input_requested"
+      ],
+      "path": [
+        "make a safe decision",
+        "ask for missing input"
+      ],
+      "score": 3
+    },
+    {
+      "cost": 1,
+      "evidence": [
+        "change_bounded"
+      ],
+      "path": [
+        "make a safe decision",
+        "make a bounded change"
+      ],
+      "score": 3
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "evidence": [
+        "unsafe_test_evidence"
+      ],
+      "path": [
+        "make a safe decision",
+        "bypass safety check"
+      ],
+      "reason": "candidate contains an unsafe action",
+      "score": -7
+    }
+  ],
+  "rejected_count": 1
+}

@@ -1,0 +1,13 @@
+{
+  "depth": 0,
+  "frontier": [
+    {
+      "cost": 0,
+      "evidence": [],
+      "path": [
+        "make a safe decision"
+      ],
+      "score": 0
+    }
+  ]
+}

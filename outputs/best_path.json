@@ -1,0 +1,25 @@
+{
+  "best_candidate": {
+    "cost": 2,
+    "evidence": [
+      "input_requested",
+      "change_bounded"
+    ],
+    "path": [
+      "make a safe decision",
+      "ask for missing input",
+      "make a bounded change"
+    ],
+    "score": 5
+  },
+  "rejected_candidates": [],
+  "search_budget": {
+    "budget_exhausted": true,
+    "depth": 2,
+    "depth_reached": 2,
+    "duplicate_count": 0,
+    "expanded_count": 9,
+    "rejected_count": 0,
+    "width": 2
+  }
+}
